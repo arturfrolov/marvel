@@ -9,7 +9,7 @@ import mjolnir from '../../resources/img/mjolnir.png';
 class RandomChar extends Component {
 
     state = {
-        charList: {},
+        char: {},
         loading: true,
         error: false,
     }
