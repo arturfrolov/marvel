@@ -134,7 +134,7 @@ class CharList extends Component {
 }
 
 CharInfo.propTypes = {
-    onCharSelected: PropTypes.func.isRequired
+    onCharSelected: PropTypes.func
 }
 
 export default CharList;
