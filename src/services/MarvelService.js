@@ -35,13 +35,13 @@ const useMarvelService = () => {
         }
     }
 
-    const _transformComics = (comics) => {
+    const _transformComics = (comic) => {
         return {
-            id: comics.id,
-            title: comics.title,
-            thumbnail: comics.thumbnail.path + '.' + comics.thumbnail.extension,
-            homepage: comics.urls[0].url,
-            price: comics.prices[0].price + '$',
+            id: comic.id,
+            title: comic.title,
+            thumbnail: comic.thumbnail.path + '.' + comic.thumbnail.extension,
+            homepage: comic.urls[0].url,
+            price: comic.prices[0].price + '$',
         }
     }
 
